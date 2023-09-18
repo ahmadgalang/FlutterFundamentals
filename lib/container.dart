@@ -11,32 +11,21 @@ class MyContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-      appBar: AppBar(
-        title: const Text("Latihan container"),
-      ),
-      body: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Center(
-              child: Container(
-            padding: const EdgeInsets.all(10),
-            width: 100,
-            height: 100,
-            decoration: BoxDecoration(
-              color: const Color.fromARGB(255, 17, 87, 248),
-              borderRadius: BorderRadius.circular(50.0),
-              border:Border.all(width: 2)
+            appBar: AppBar(
+              title: const Text("Latihan container"),
             ),
-            child: Container(
-                width: 90,
-                height: 90,
-                decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 232, 229, 229),
-                    borderRadius: BorderRadius.circular(50.0),
-                    border:Border.all(width: 2,color: Colors.blueGrey))),
-          )),
-        ],
-      ),
-    ));
+            body: Container(
+              color: Colors.blue,
+              margin: const EdgeInsets.all(10),
+              padding: const EdgeInsets.all(10),
+              child: Container(
+                  margin: const EdgeInsets.all(10),
+                  decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
+                          colors: <Color>[const Color.fromARGB(255, 234, 234, 234), Color.fromARGB(255, 246, 0, 0)]), borderRadius: BorderRadius.circular(50))
+                          ),
+            )));
   }
 }
