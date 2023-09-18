@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "flutter_fundamentals",
-            "program": "lib/rowncolumn.dart",
+            "program": "lib/container.dart",
             "request": "launch",
             "type": "dart"
         },

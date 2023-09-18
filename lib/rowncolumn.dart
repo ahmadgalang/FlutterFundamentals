@@ -22,7 +22,7 @@ class MyColumn extends StatelessWidget {
               Text('text 3'),
               Column(
                 children: <Widget> [
-                  Text('test 4'),
+                  Text('test 00', style: TextStyle(fontWeight: FontWeight.w900, fontSize: 19)),
                   Text('test 5'),
                   Text('test 6')
                 ],
