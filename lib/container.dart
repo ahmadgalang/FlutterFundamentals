@@ -21,10 +21,10 @@ class MyContainer extends StatelessWidget {
               child: Container(
                   margin: const EdgeInsets.all(10),
                   decoration: BoxDecoration(
-                      gradient: LinearGradient(
+                      gradient: const LinearGradient(
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
-                          colors: <Color>[const Color.fromARGB(255, 234, 234, 234), Color.fromARGB(255, 246, 0, 0)]), borderRadius: BorderRadius.circular(50))
+                          colors: <Color>[Color.fromARGB(255, 234, 234, 234), Color.fromARGB(255, 246, 0, 0)]), borderRadius: BorderRadius.circular(50))
                           ),
             )));
   }
