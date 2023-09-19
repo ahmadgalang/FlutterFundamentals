@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "flutter_fundamentals",
-            "program": "lib/statefullwidget.dart",
+            "program": "lib/fontstyle.dart",
             "request": "launch",
             "type": "dart"
         },
