@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "flutter_fundamentals",
-            "program": "lib/fontstyle.dart",
+            "program": "lib/listview.dart",
             "request": "launch",
             "type": "dart"
         },
