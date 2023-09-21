@@ -32,7 +32,7 @@ class _AnonymousState extends State<Anonymous> {
                       message = "Berubah textnya"; // anonymous method
                     });
                   },
-                  child: Text('tombol'))
+                  child: const Text('tombol'))
             ],
           ),
         ),

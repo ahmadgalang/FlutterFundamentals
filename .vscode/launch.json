@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "flutter_fundamentals",
-            "program": "lib/listview.dart",
+            "program": "lib/animatedcontainer.dart",
             "request": "launch",
             "type": "dart"
         },
