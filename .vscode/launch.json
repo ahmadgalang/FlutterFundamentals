@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "flutter_fundamentals",
-            "program": "lib/stackandalign.dart",
+            "program": "lib/imagewidget.dart",
             "request": "launch",
             "type": "dart"
         },
