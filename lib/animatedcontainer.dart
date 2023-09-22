@@ -46,7 +46,7 @@ class _MyAnimatedContainerState extends State<MyAnimatedContainer> {
               _width = random.nextInt(200).toDouble();
               _height = random.nextInt(200).toDouble();
               _colors = Color.fromRGBO(random.nextInt(200),random.nextInt(200),random.nextInt(200),1);
-              _borderRadius = BorderRadius.circular(random.nextInt(100).toDouble());
+              _borderRadius = BorderRadius.circular(random.nextInt(300).toDouble());
               
             });
           },child: const Icon(Icons.play_arrow),
