@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyStackAndAlign());
+  runApp(const MyStackAndAlign());
 }
 
 class MyStackAndAlign extends StatelessWidget {
@@ -27,7 +27,7 @@ class MyStackAndAlign extends StatelessWidget {
                     Flexible(
                       flex: 1,
                       child: Container(
-                        color: Color.fromARGB(255, 229, 182, 198),
+                        color: const Color.fromARGB(255, 229, 182, 198),
                       ),
                     )
                   ],
@@ -52,7 +52,7 @@ class MyStackAndAlign extends StatelessWidget {
               ],
             ),
             ListView(
-              children: [
+              children: const [
                 Column(
                   children: [
                     Text('sedang mencoba mencoba mencoba',
@@ -73,7 +73,7 @@ class MyStackAndAlign extends StatelessWidget {
               alignment: Alignment.center,
               child: ElevatedButton(onPressed: () {
                 
-              }, child: Icon(Icons.mode_edit_outline_sharp)),
+              }, child: const Icon(Icons.mode_edit_outline_sharp)),
             )
           ],
         ),

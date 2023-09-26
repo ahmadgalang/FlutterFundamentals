@@ -16,7 +16,7 @@ class MyImageWidget extends StatelessWidget {
               width: 900,
               height: 300,
               color: Colors.black26,
-              child: Image(
+              child: const Image(
                 image: AssetImage(
                   'assets/images/ironman.jpg',
                 ),
