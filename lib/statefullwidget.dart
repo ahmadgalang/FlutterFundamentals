@@ -16,13 +16,13 @@ class _MyStatefullState extends State<MyStatefull> {
 
   void add() {
     setState(() {
-      number = number + 1;
+      number = number++;
     });
   }
 
   void minus() {
     setState(() {
-      number = number - 1;
+      number = number--;
     });
   }
 

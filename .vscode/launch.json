@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "flutter_fundamentals",
-            "program": "lib/loginpage/main.dart",
+            "program": "lib/textfield.dart",
             "request": "launch",
             "type": "dart"
         },
