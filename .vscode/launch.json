@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "flutter_fundamentals",
-            "program": "lib/animatedcontainer.dart",
+            "program": "lib/loginpage/main.dart",
             "request": "launch",
             "type": "dart"
         },
