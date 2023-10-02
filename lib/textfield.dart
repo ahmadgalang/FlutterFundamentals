@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyTextField());
+  runApp(const MyTextField());
 }
 
 class MyTextField extends StatefulWidget {
@@ -12,7 +12,7 @@ class MyTextField extends StatefulWidget {
 }
 
 class _MyTextFieldState extends State<MyTextField> {
-  TextEditingController InputText = TextEditingController();
+  TextEditingController inputText = TextEditingController();
   FocusNode focusNode = FocusNode();
 
   @override
@@ -20,13 +20,13 @@ class _MyTextFieldState extends State<MyTextField> {
     return MaterialApp(
       home: Scaffold(
         body: Container(
-          margin: EdgeInsets.all(40),
+          margin: const EdgeInsets.all(40),
           child: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 TextField(
-                  decoration: InputDecoration(labelText: 'masukkan huruf'),
+                  decoration: const InputDecoration(labelText: 'masukkan huruf'),
                   focusNode: focusNode,
                   onChanged: (value) {
                     setState(() {
@@ -35,20 +35,20 @@ class _MyTextFieldState extends State<MyTextField> {
                       }
                     });
                   },
-                  controller: InputText,
+                  controller: inputText,
                 ),
-                Text(InputText.text),
+                Text(inputText.text),
                 TextField(
-                  decoration: InputDecoration(labelText: 'masukkan password'),
+                  decoration: const InputDecoration(labelText: 'masukkan password'),
                   obscureText: true,
                   onChanged: (value) {
                     setState(() {});
                   },
-                  controller: InputText,
+                  controller: inputText,
                 ),
-                SizedBox(height: 100),
+                const SizedBox(height: 100),
                 ElevatedButton(onPressed: () {
-                }, child:Text('Login' ))
+                }, child:const Text('Login' ))
               ],
             ),
           ),

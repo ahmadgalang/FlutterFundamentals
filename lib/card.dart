@@ -13,7 +13,7 @@ class MyCart extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.blueAccent,
         body: Container(
-          margin: EdgeInsets.all(10),
+          margin: const EdgeInsets.all(10),
           child: ListView(
             children: [
               Column(
@@ -33,11 +33,11 @@ class MyCart extends StatelessWidget {
     return Card(
       elevation: 5,
       child: Padding(
-        padding: EdgeInsets.all(10),
+        padding: const EdgeInsets.all(10),
         child: Row(
           children: [
             Container(
-              margin: EdgeInsets.all(5),
+              margin: const EdgeInsets.all(5),
               child: Icon(iconDataaa),
             ),
             Text(
