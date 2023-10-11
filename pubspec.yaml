@@ -63,6 +63,9 @@ flutter:
      - assets/images/ironman.jpg
      - assets/images/sunset.jpg
      - assets/images/images.jpg
+     - assets/images/fb.jpeg
+     - assets/images/google.jpg
+     - assets/images/fvck.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -81,6 +84,10 @@ flutter:
     fonts:
       - asset: assets/fonts/MontserratB.ttf
       - asset: assets/fonts/MontserratBI.ttf
+        style: italic
+  - family: Pacifico
+    fonts:
+      - asset: assets/fonts/Pacifico.ttf
         style: italic
 
   #   - family: Trajan Pro

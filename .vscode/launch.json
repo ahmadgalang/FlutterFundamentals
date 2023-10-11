@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "flutter_fundamentals",
-            "program": "lib/opacitycard.dart",
+            "program": "lib/hero.dart",
             "request": "launch",
             "type": "dart"
         },

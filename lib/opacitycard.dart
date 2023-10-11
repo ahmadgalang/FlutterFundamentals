@@ -22,12 +22,6 @@ class MyCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text(
-            'Opacity card',
-          ),
-          backgroundColor: const Color.fromARGB(255, 255, 63, 63),
-        ),
         body: Stack(
           alignment: FractionalOffset.center,
           children: [
@@ -46,7 +40,7 @@ class MyCard extends StatelessWidget {
                 child: Stack(
                   children: [
                     Opacity(
-                      opacity: 0.1,
+                      opacity: 0.2,
                       child: Container(
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(5),
@@ -67,18 +61,63 @@ class MyCard extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      margin: EdgeInsets.fromLTRB(20, 50 + MediaQuery.of(context).size.height * 0.35, 20, 20),
+                      margin: EdgeInsets.fromLTRB(
+                          20,
+                          50 + MediaQuery.of(context).size.height * 0.35,
+                          20,
+                          20),
                       child: const Column(
                         children: [
                           Center(
                             child: Text(
-                              'Cobaaa',
-                              style: TextStyle(color: Color(0xFFF56050), fontSize: 20),
+                              'Beautiful sunset at paddy field',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                  color: Color(0xFFF56050), fontSize: 20),
                             ),
                           ),
+                          SizedBox(height: 10),
+                          Center(
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text(
+                                  textAlign: TextAlign.center,
+                                  'Post On',
+                                  style: TextStyle(
+                                      color: Colors.grey, fontSize: 12),
+                                ),
+                                Text(
+                                  textAlign: TextAlign.center,
+                                  ' September 2023',
+                                  style: TextStyle(
+                                      color: Color(0xFFF56050), fontSize: 12),
+                                ),
+                              ],
+                            ),
+                          ),
+                          SizedBox(
+                            height: 40,
+                          ),
+                          Center(
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Spacer(flex: 10,),
+                                Icon(Icons.thumb_up),
+                                Spacer(flex: 1,),
+                                Text('99'),
+                                Spacer(flex: 5),
+                                Icon(Icons.comment),
+                                Spacer(flex: 1,),
+                                Text('99'),
+                                Spacer(flex: 10,),
+                              ],
+                            ),
+                          )
                         ],
                       ),
-                    )
+                    ),
                   ],
                 ),
               ),
